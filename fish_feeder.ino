@@ -1,6 +1,7 @@
 #include <Servo.h>
 
-#define PIN_SERVO 11
+#define PIN_SERVO 11 // pin is driven via register and changing this define
+                     // doesn't automatically change the pin
 
 #define MIN_ANGLE 0
 #define MAX_ANGLE 180
