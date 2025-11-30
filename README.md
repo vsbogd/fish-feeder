@@ -1,8 +1,11 @@
 # Overview
 
 Fish feeder firmware for the https://www.thingiverse.com/thing:6378659 based on
-cheap Arduino Mini Pro Atmega168 8MHz. Link to my make:
+cheap Arduino Pro Mini Atmega168 8MHz. Link to my make:
 https://www.thingiverse.com/make:1242906
+
+Wiring diagram:
+![Arduino Pro Mini wiring diagram](./wiring.png)
 
 It controls PWM pin 11 manually using Atmega168 registers. Thus changing pin in
 this code is not trivial. Constant in the code is provided for reference only.
